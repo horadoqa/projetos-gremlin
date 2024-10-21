@@ -16,7 +16,7 @@
 
 ## Gremlin Team Id; you can find this value at https://app.gremlin.com/settings/teams
 ## (can also be set with GREMLIN_TEAM_ID environment variable)
-team_id: cea0b46c-9b07-4497-a0b4-6c9b075497ed
+team_id: 
 
 ## Gremlin Client Tags; Tag your agent with key-value pairs that help you target this agent during attacks
 ## (can also set with GREMLIN_CLIENT_TAGS environment variable)
@@ -33,15 +33,7 @@ team_id: cea0b46c-9b07-4497-a0b4-6c9b075497ed
 ## (can also set with GREMLIN_TEAM_CERTIFICATE_OR_FILE environment variable)
 team_certificate: | 
  -----BEGIN CERTIFICATE-----
- MIIBqjCCAVCgAwIBAgIBATAKBggqhkjOPQQDAjBPMSMwIQYDVQQDDBpHcmVtbGlu
- IENsaWVudCBDZXJ0aWZpY2F0ZTETMBEGA1UECwwKSG9yYSBkbyBRQTETMBEGA1UE
- CgwKSG9yYSBkbyBRQTAeFw0yNDEwMjExNzE4MzlaFw0yNTEwMjExNzE4MzlaME8x
- IzAhBgNVBAMMGkdyZW1saW4gQ2xpZW50IENlcnRpZmljYXRlMRMwEQYDVQQLDApI
- b3JhIGRvIFFBMRMwEQYDVQQKDApIb3JhIGRvIFFBMFkwEwYHKoZIzj0CAQYIKoZI
- zj0DAQcDQgAEXz5e2VGDpXDvWSska3vrNs6Ed8dFs9Zls63tvlCQZuPCRajLR4vZ
- xgIS+tPd+qjttnN5IztupfBeHSb3NXwl2aMdMBswCQYDVR0TBAIwADAOBgNVHQ8B
- Af8EBAMCB4AwCgYIKoZIzj0EAwIDSAAwRQIgfeVbBCN+B2LA/CFbuVTl+0URwkvf
- A/pJDOd9dw3RXsoCIQD1WdVSBC+iU3rXC4N72ZZD+vA/8Fkcgrj7ai9Mqpboyw==
+ 
  -----END CERTIFICATE-----
  
 
@@ -50,9 +42,7 @@ team_certificate: |
 ## (can also set with GREMLIN_TEAM_PRIVATE_KEY_OR_FILE environment variable)
 team_private_key: | 
  -----BEGIN EC PRIVATE KEY-----
- MHcCAQEEIJRgGVKpd3j1P8tVKDRsiPxuwN7CADrUlqaZ/+aj+xKIoAoGCCqGSM49
- AwEHoUQDQgAEXz5e2VGDpXDvWSska3vrNs6Ed8dFs9Zls63tvlCQZuPCRajLR4vZ
- xgIS+tPd+qjttnN5IztupfBeHSb3NXwl2Q==
+
  -----END EC PRIVATE KEY-----
  
 
