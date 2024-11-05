@@ -15,7 +15,7 @@ msiexec /package https://windows.gremlin.com/installer/latest/gremlin_installer.
 
 A configuração mínima necessária para autenticar o Agente Gremlin é:
 
-- ID da equipe (https://app.gremlin.com/settings/team/cea0b46c-9b07-4497-a0b4-6c9b075497ed/configuration)
+- ID da equipe (https://app.gremlin.com/settings/team/cea0b46c-70b9-4497-a0b4-6c9b075497ed/configuration)
 - Segredo ou certificado
 
 Se você baixou um arquivo de configuração do cliente, você já tem tudo o que precisa para registrar o Agent. 
@@ -114,7 +114,6 @@ Aproximar um número redondo de vezes em milissegundos:
     Mínimo = 19ms, Máximo = 21ms, Média = 19ms
 ```
 
-
 ## Testar Certificado e Chave Privada
 
 Certifique-se de que a chave privada corresponde ao certificado. Você pode usar ferramentas como OpenSSL para verificar isso. Um comando simples pode ser:
@@ -122,4 +121,12 @@ Certifique-se de que a chave privada corresponde ao certificado. Você pode usar
 ```bash
 openssl x509 -in horadoqa-client.pub_cert.pem -noout -text
 openssl ec -in horadoqa-client.priv_key.pem -noout -text
+```
+
+## Desinstalando Gremlin do Windows
+
+Para desinstalar o agente Gremlin Windows, execute o seguinte comando do PowerShell em um prompt de comando elevado:
+
+```bash
+Uninstall-Package -Name 'Gremlin Agent'
 ```
